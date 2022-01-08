@@ -22,5 +22,6 @@
     GPIO pins 36, 39, 34 and 35 do not have pull-up resistors on my ESP32 board, so external pull-up resistors should be used.
     I organised pins in order that was easier for me to solder jumper wires, so output pins might seem out of order.
 
-    WARNING!!!
-    This code does not implement password validation and session management and should not be used in external networks.
+    !!!WARNINGS!!!
+    * This code does not implement password validation and session management and should not be used in external networks.
+    * ESP32 supports only 3.3V I/O logic and external logic level converter should be used to work with higher voltage logic
