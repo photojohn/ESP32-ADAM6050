@@ -259,7 +259,7 @@ void initAllOutputs() {
   setOutput(5, EEPROM.read(5));
 }
 
-boolean startsWith(char* target, char* expected, int length) {
+boolean startsWith(char* target, String expected, int length) {
   for (int i = 0; i < length; i++) {
     if (target[i] != expected[i]) {
       return false;
