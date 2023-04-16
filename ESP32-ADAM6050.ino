@@ -29,9 +29,8 @@
 #include <WiFi.h>
 #include <WiFiUdp.h>
 #include <EEPROM.h>
+#include "secrets.h"
 
-#define WIFI_SSID "YOUR_SSID"
-#define WIFI_PASS "YOUR_WIFI_PASS"
 #define UDP_PORT 1025
 #define PORT_01 36
 #define PORT_02 39
